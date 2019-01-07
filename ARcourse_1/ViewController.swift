@@ -17,29 +17,23 @@ class ViewController: UIViewController, ARSCNViewDelegate {
     let configuration = ARWorldTrackingConfiguration()
 
     @IBAction func add(_ sender: Any) {
-        // a node is purely a position, describe a coordinate system
-        let node = SCNNode()
-
-        node.geometry = SCNSphere(radius: 0.1)
-    //        node.geometry = SCNBox(width: 0.1, height: 0.1, length: 0.1, chamferRadius: 0.01)
-        node.geometry?.firstMaterial?.diffuse.contents = UIImage(named: "earth_day")
-        node.geometry?.firstMaterial?.normal.contents = UIImage(named: "earth_normal")
-        node.geometry?.firstMaterial?.emission.contents = UIImage(named: "earth_clouds")
-//        node.geometry?.firstMaterial?.diffuse.contents = UIImage(named: "earth_day")
-
-        node.position = SCNVector3(0,0,0) // 1 = 100 cm
-//        node.eulerAngles = SCNVector3(90.degreeToRadians, 0, 0)
-
-        let action = SCNAction.rotateBy(x: 0, y: CGFloat(360.degreeToRadians), z: 0, duration: 8)
-        let forever = SCNAction.repeatForever(action)
-        node.runAction(forever)
-        
+        let scene = SCNScene(named: "art.scnassets/sofa.scn")
+        let node = scene?.rootNode.childNode(withName: "Edie", recursively: true)
+        print(node)
+        node?.position = sceneView.scene.rootNode.position
         // scene is the camera view of the real world, its root Node is at the postion of world origin
-        sceneView.scene.rootNode.addChildNode(node) // the position of node is relative to the rootnode
+        if let n = node{
+            sceneView.scene.rootNode.addChildNode(n) // the position of node is relative to the rootnode
+        }
     }
 
     @IBAction func reset(_ sender: UIButton) {
         restartSession()
+    }
+    
+    func animateNode(node: SCNNode){
+        let spin = CABasicAnimation(keyPath: "position")
+        
     }
 
     @IBOutlet var midButton: UIButton!

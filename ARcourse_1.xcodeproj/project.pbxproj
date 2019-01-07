@@ -12,6 +12,13 @@
 		99218C4A21E22132002A4C53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99218C4821E22132002A4C53 /* Main.storyboard */; };
 		99218C4C21E22134002A4C53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99218C4B21E22134002A4C53 /* Assets.xcassets */; };
 		99218C4F21E22134002A4C53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99218C4D21E22134002A4C53 /* LaunchScreen.storyboard */; };
+		99218C5721E30E68002A4C53 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 99218C5621E30E68002A4C53 /* art.scnassets */; };
+		99218C6321E30F5D002A4C53 /* Wood.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99218C5D21E30F5C002A4C53 /* Wood.jpg */; };
+		99218C6421E30F5D002A4C53 /* Fabric 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99218C5E21E30F5D002A4C53 /* Fabric 1.jpg */; };
+		99218C6521E30F5D002A4C53 /* Fabric 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99218C5F21E30F5D002A4C53 /* Fabric 2.jpg */; };
+		99218C6621E30F5D002A4C53 /* Fabric 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99218C6021E30F5D002A4C53 /* Fabric 4.jpg */; };
+		99218C6721E30F5D002A4C53 /* Wood Bump.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99218C6121E30F5D002A4C53 /* Wood Bump.jpg */; };
+		99218C6821E30F5D002A4C53 /* Fabric 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99218C6221E30F5D002A4C53 /* Fabric 3.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +29,13 @@
 		99218C4B21E22134002A4C53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		99218C4E21E22134002A4C53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		99218C5021E22134002A4C53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99218C5621E30E68002A4C53 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		99218C5D21E30F5C002A4C53 /* Wood.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Wood.jpg; path = "../../../../Downloads/Edie_Lounge_Chair/Edie Lounge Chair Turbosquid .DAE/Wood.jpg"; sourceTree = "<group>"; };
+		99218C5E21E30F5D002A4C53 /* Fabric 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Fabric 1.jpg"; path = "../../../../Downloads/Edie_Lounge_Chair/Edie Lounge Chair Turbosquid .DAE/Fabric 1.jpg"; sourceTree = "<group>"; };
+		99218C5F21E30F5D002A4C53 /* Fabric 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Fabric 2.jpg"; path = "../../../../Downloads/Edie_Lounge_Chair/Edie Lounge Chair Turbosquid .DAE/Fabric 2.jpg"; sourceTree = "<group>"; };
+		99218C6021E30F5D002A4C53 /* Fabric 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Fabric 4.jpg"; path = "../../../../Downloads/Edie_Lounge_Chair/Edie Lounge Chair Turbosquid .DAE/Fabric 4.jpg"; sourceTree = "<group>"; };
+		99218C6121E30F5D002A4C53 /* Wood Bump.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Wood Bump.jpg"; path = "../../../../Downloads/Edie_Lounge_Chair/Edie Lounge Chair Turbosquid .DAE/Wood Bump.jpg"; sourceTree = "<group>"; };
+		99218C6221E30F5D002A4C53 /* Fabric 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Fabric 3.jpg"; path = "../../../../Downloads/Edie_Lounge_Chair/Edie Lounge Chair Turbosquid .DAE/Fabric 3.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +72,14 @@
 				99218C4621E22132002A4C53 /* ViewController.swift */,
 				99218C4821E22132002A4C53 /* Main.storyboard */,
 				99218C4B21E22134002A4C53 /* Assets.xcassets */,
+				99218C5621E30E68002A4C53 /* art.scnassets */,
 				99218C4D21E22134002A4C53 /* LaunchScreen.storyboard */,
+				99218C5E21E30F5D002A4C53 /* Fabric 1.jpg */,
+				99218C5F21E30F5D002A4C53 /* Fabric 2.jpg */,
+				99218C6221E30F5D002A4C53 /* Fabric 3.jpg */,
+				99218C6021E30F5D002A4C53 /* Fabric 4.jpg */,
+				99218C6121E30F5D002A4C53 /* Wood Bump.jpg */,
+				99218C5D21E30F5C002A4C53 /* Wood.jpg */,
 				99218C5021E22134002A4C53 /* Info.plist */,
 			);
 			path = ARcourse_1;
@@ -122,8 +143,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99218C5721E30E68002A4C53 /* art.scnassets in Resources */,
+				99218C6821E30F5D002A4C53 /* Fabric 3.jpg in Resources */,
+				99218C6521E30F5D002A4C53 /* Fabric 2.jpg in Resources */,
+				99218C6421E30F5D002A4C53 /* Fabric 1.jpg in Resources */,
 				99218C4F21E22134002A4C53 /* LaunchScreen.storyboard in Resources */,
+				99218C6321E30F5D002A4C53 /* Wood.jpg in Resources */,
 				99218C4C21E22134002A4C53 /* Assets.xcassets in Resources */,
+				99218C6721E30F5D002A4C53 /* Wood Bump.jpg in Resources */,
+				99218C6621E30F5D002A4C53 /* Fabric 4.jpg in Resources */,
 				99218C4A21E22132002A4C53 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
