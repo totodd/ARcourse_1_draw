@@ -28,6 +28,9 @@
                                     <constraint firstAttribute="width" constant="40" id="aab-xt-iDw"/>
                                 </constraints>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="add:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sZH-db-1Eo"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HM3-NU-RhV">
                                 <rect key="frame" x="319" y="629" width="40" height="30"/>
